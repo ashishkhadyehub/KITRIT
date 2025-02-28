@@ -32,7 +32,7 @@
 
             </div>
 
-           <asp:Button runat="server" ID="btnSubmit" CssClass="btn btn-outline-success" Text="Submit" />
+           <asp:Button runat="server" OnClick="btnSubmit_Click" ID="btnSubmit" CssClass="btn btn-outline-success" Text="Submit" />
             
         </div>
     </div>

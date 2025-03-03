@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KITRIT.Sessions", "KITRIT.Sessions\KITRIT.Sessions.csproj", "{04439601-78FA-45D2-A0CA-E18ECEEBAC56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS", "EMS\EMS.csproj", "{2B37E482-08FD-4730-8AA7-D50A0C70D496}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{04439601-78FA-45D2-A0CA-E18ECEEBAC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04439601-78FA-45D2-A0CA-E18ECEEBAC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04439601-78FA-45D2-A0CA-E18ECEEBAC56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B37E482-08FD-4730-8AA7-D50A0C70D496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B37E482-08FD-4730-8AA7-D50A0C70D496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B37E482-08FD-4730-8AA7-D50A0C70D496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B37E482-08FD-4730-8AA7-D50A0C70D496}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

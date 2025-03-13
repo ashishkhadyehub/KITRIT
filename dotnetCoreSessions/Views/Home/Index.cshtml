@@ -1,0 +1,13 @@
+﻿@* @model string *@
+@model Student
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h3>Roll No : @Model.ID</h3>
+    <h3>Student Name : @Model.Name</h3>
+    <h3>City : @Model.City</h3>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

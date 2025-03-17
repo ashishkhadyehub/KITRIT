@@ -19,11 +19,18 @@ namespace dotnetCoreSessions.Controllers
             //int a = 90;
             //string test = "DotNetCore";
             //return View("Index",test);
-            Student student = new Student();
-            student.ID = 20;
-            student.Name = "Test";
-            student.City = "Mumbai";
-            return View(student);  
+
+            //Student student = new Student();
+            //student.ID = 20;
+            //student.Name = "Test";
+            //student.City = "Mumbai";
+            List<Student> students = new List<Student>();
+            students.Add(new Student { ID=1,Name="Test1",City="Kolhapur" });
+            students.Add(new Student { ID=2,Name="Test2",City="Pune" });
+            students.Add(new Student { ID=3,Name="Test3",City="Jaipur" });
+            students.Add(new Student { ID=4,Name="Test4",City="Delhi" });
+
+            return View(students);  
         }
 
         public IActionResult Privacy()
